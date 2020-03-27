@@ -1,4 +1,70 @@
-img{
+.map{
 
-    width: 100vw;
+    width: 60vw;
+    height: 40vw;
+    margin: auto;
+
+    background-color: black;
 }
+
+body{
+
+    font-family: Avenir, sans-serif;
+}
+
+#box{
+
+    background-color: #D0D0D0;
+    width: 20vw;
+    padding: 2vw;
+}
+
+.main{
+
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+}
+
+.red{
+
+    fill: red;
+}
+
+.red:hover{
+
+    fill: #B90000;
+}
+
+.yellow{
+
+    fill: #ffce00;
+}
+
+.yellow:hover{
+
+    fill: #D2A800;
+}
+
+.green{
+
+    fill: #53DC00;
+}
+
+.green:hover{
+
+    fill: #44B300;
+}
+
+.blue{
+
+    fill: #0087FF;
+}
+
+.blue:hover{
+
+    fill: #004BE1;
+}
+
+
